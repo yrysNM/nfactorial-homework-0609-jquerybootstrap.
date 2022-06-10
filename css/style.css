@@ -1,0 +1,90 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainContent {
+    margin-top: 100px;
+}
+
+.pos_menu {
+    position: relative; 
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.leftMenu {
+
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+.leftMenu__list li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.leftMenu__list li .leftMenu__link {
+    color: #000 !important;   
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+.block {
+    margin-top: 50px;
+}
+
+.block__btn {
+    
+    margin-top: 10px;
+
+}
+
+.btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    box-shadow: none;
+}
+
+.blockInfo {
+    margin-top: 120px;
+    position: absolute;
+    left: -200%;
+    width: 520px;
+    transition: all 0.6s;
+}
+
+
+.blockInfo span {
+    color: green;
+}
+
+
+.dw {
+    position: relative;
+}
+
+.active {
+    position: relative;
+    transition: all 0.6s;
+    left: 0; 
+    width: 520px;
+}
+
+.block__form, .blockInfo {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
